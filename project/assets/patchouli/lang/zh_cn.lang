@@ -66,3 +66,10 @@ patchouli.gui.lexicon.toast.info=新章节已解锁
 patchouli.gui.lexicon.toast=新章节！
 patchouli.gui.lexicon.view=浏览条目
 patchouli.gui.lexicon.visualize_letter=V
+item.patchouli:test_book_1.landing=没有乐趣登陆文字，但仍然在这里。
+item.patchouli:test_book_2.landing=登陆文本！它甚至支持$（2）颜色$（）和$（4）$（粗体）喜欢$（）！
+item.patchouli:test_completion.name=测试进度驱动书
+item.patchouli:intro_book.landing=$（项目）广藿香$（），您可以使易于阅读，进展可解锁$（物件）书籍$（）的MODS和整合包!
+#Subtitles
+patchouli.subtitle.book_open=图书开放
+patchouli.subtitle.book_flip=页面翻转
