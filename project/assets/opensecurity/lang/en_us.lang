@@ -1,4 +1,4 @@
-# //Blocks
+//Blocks
 tile.alarm.name=Alarm
 tile.rfid_reader.name=RFID Reader
 tile.card_writer.name=Card Writer
@@ -15,7 +15,7 @@ tile.biometric_reader.name=Biometric Reader
 tile.secure_door.name=Security Door
 tile.private_secure_door.name=Private Security Door
 tile.security_terminal.name=Security Terminal
-# //items
+//items
 item.rfid_card.name=RFID Card
 item.mag_card.name=Magnetic Strip Card
 item.rfid_reader_card.name=RFID Reader Card
@@ -25,7 +25,7 @@ item.movement_upgrade.name=Movement Upgrade
 item.energy_upgrade.name=Energy Upgrade
 item.cooldown_upgrade.name=Cooldown Upgrade
 itemGroup.OpenSecurity.tabOpenSecurity=OpenSecurity
-# //guis
+//guis
 gui.string.cardwriter=Card Writer
 gui.string.cardslot=Card Slot
 gui.string.kvm=KVM Switch Control
