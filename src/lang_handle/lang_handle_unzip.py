@@ -2,6 +2,7 @@ import re
 import zipfile
 import json
 import os
+import io
 
 from src.bytecode_parse.parser import JavaClass
 from src.baka_init import *
@@ -47,6 +48,7 @@ def unzip(unzip_file_name, unzip_path_mods, unzip_path_assets):
         fml_cache_annotation_file='META-INF/fml_cache_annotation.json'
         if fml_cache_annotation_file in z.namelist():
             with z.open(fml_cache_annotation_file) as f:
+                f=io.TextIOWrapper(f,encoding='utf8')
                 annotations = json.load(f)
                 for class_ann in annotations.values():
                     if not 'annotations' in class_ann:
